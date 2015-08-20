@@ -436,6 +436,10 @@ Small Device Styles
 Trent's additions
 *******************************************************************************/
 
+body {
+  font-family: 'Muli', sans-serif;
+}
+
 .outer {
     display: table;
     position: absolute;
