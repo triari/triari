@@ -443,26 +443,26 @@ Trent's additions
     margin-right: auto; 
     width: 100%;
 
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 header {
-  margin: 70px 0px 100px 0px;
+  margin: 70px 0px 50px 0px;
   text-align: center;
 }
 .content {
-  height: 600px;
+  height: 400px;
 }
 footer {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 200px;
   color: #ccc;
   text-align: center;
-  font-size: 300%;
+  font-size: 140%;
 }
 
 .logo {
-  width: 400px;
+  width: 200px;
 }
 .city {
   height: 100%;
@@ -481,19 +481,42 @@ footer {
   display: block;
 }
 
-/* larger screens */
-@media only screen and (min-width: 768px) {
+.mobile {
+  display: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #ccc;
+}
+
+/*@media only screen and (min-width: 768px) {*/
+/*@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+*/
+@media only screen 
+and (max-device-width : 736px) {
+/* iPhone 6+ ----------- */
+/*@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 2){*/
+  .mobile {
+    display: inline;
+  }
   header {
-    margin: 70px 0px 50px 0px;
+    margin: 70px 0px 100px 0px;
   }
   footer {
-    padding-top: 50px;
-    font-size: 130%;
+    padding-top: 100px;
+    font-size: 300%;
   }
   .logo {
-    width: 200px;
+    width: 400px;
   }
   .content {
-    height: 400px;
+    height: 600px;
   }
 }
