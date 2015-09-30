@@ -236,11 +236,11 @@ p {
 }
 .phone {
   display: inline;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 .address {
   display: inline;
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .mobile {
@@ -419,11 +419,11 @@ and (orientation: landscape) {
   }
   .phone {
     display: inline;
-    margin-left: 100px;
+    margin-left: 70px;
   }
   .address {
     display: inline;
-    margin-left: 100px;
+    margin-left: 70px;
   }
   #top img {
     height: 100px;
