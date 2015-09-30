@@ -238,6 +238,10 @@ p {
   display: inline;
   margin-left: 100px;
 }
+.address {
+  display: inline;
+  margin-left: 100px;
+}
 
 .mobile {
   display: none;
@@ -248,7 +252,8 @@ p {
 .contact a:visited,
 .contact a:hover,
 .contact a:focus,
-.contact a:active {
+.contact a:active,
+.contact .address {
   text-decoration: none;
   color: #ccc;
 }
@@ -378,7 +383,11 @@ and (orientation: portrait) {
     display: block;
     margin-left: 0px;
   }
-  .contact .email, .contact .phone {
+  .address {
+    display: block;
+    margin-left: 0px;
+  }
+  .contact .email, .contact .phone, .contact .address {
     width: 100%;
   }
   #top img {
@@ -409,6 +418,10 @@ and (orientation: landscape) {
     display: inline;
   }
   .phone {
+    display: inline;
+    margin-left: 100px;
+  }
+  .address {
     display: inline;
     margin-left: 100px;
   }
